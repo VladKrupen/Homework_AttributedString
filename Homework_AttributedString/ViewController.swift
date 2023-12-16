@@ -15,10 +15,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .black
+        textView.backgroundColor = .black
+        
         textView.text = "Каждый охотник желает знать где сидит фазан"
         
         let arrayWord: [String] = textView.text.components(separatedBy: " ")
-        print(arrayWord)
         
         let arrayColor: [UIColor] = [UIColor.red, UIColor.orange, UIColor.yellow, UIColor.green, UIColor.systemBlue, UIColor.blue, UIColor.purple]
         
