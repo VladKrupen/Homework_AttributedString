@@ -13,6 +13,7 @@
 		019DA0F22B2D89740095335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019DA0F02B2D89740095335C /* Main.storyboard */; };
 		019DA0F42B2D89760095335C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019DA0F32B2D89760095335C /* Assets.xcassets */; };
 		019DA0F72B2D89760095335C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019DA0F52B2D89760095335C /* LaunchScreen.storyboard */; };
+		019DA0FF2B2D8A600095335C /* RubikLines-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 019DA0FE2B2D8A600095335C /* RubikLines-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		019DA0F32B2D89760095335C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019DA0F62B2D89760095335C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019DA0F82B2D89760095335C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019DA0FE2B2D8A600095335C /* RubikLines-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikLines-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				019DA0F32B2D89760095335C /* Assets.xcassets */,
 				019DA0F52B2D89760095335C /* LaunchScreen.storyboard */,
 				019DA0F82B2D89760095335C /* Info.plist */,
+				019DA1002B2D8A9D0095335C /* Font */,
 			);
 			path = Homework_AttributedString;
+			sourceTree = "<group>";
+		};
+		019DA1002B2D8A9D0095335C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				019DA0FE2B2D8A600095335C /* RubikLines-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				019DA0F72B2D89760095335C /* LaunchScreen.storyboard in Resources */,
+				019DA0FF2B2D8A600095335C /* RubikLines-Regular.ttf in Resources */,
 				019DA0F42B2D89760095335C /* Assets.xcassets in Resources */,
 				019DA0F22B2D89740095335C /* Main.storyboard in Resources */,
 			);
